@@ -49,9 +49,9 @@ export async function pobieracz(
   const obiektPRZETWARZANY = await obiektPOBIERANY.arrayBuffer();
   const obiektRZECZYWISTY = new Buffer(obiektPRZETWARZANY).bytes();
 
-  // ?. operator - returns undefined, if destination is undefined
-  // ?.dir expression - returns undefined, when dir prop is undefined
-  // ?? operator -  returns the right side expression, when left side is undefined
+  // ?. operator - zwraca niezdefiniowane, jeśli miejsce docelowe jest niezdefiniowane 
+  // ?. wyrażenie folderu - zwraca niezdefiniowane, gdy folder jest niezdefiniowany
+  // ?? operator - zwraca wyrażenie po prawej stronie, gdy lewa strona jest nieokreślona
   let adresFolderu = pobierzJako?.zapiszDo ?? Deno.makeTempDirSync({ prefix: "deno_dwld" });
   const nazwaPliku = pobierzJako?.zapiszJako ??
     adresUrlDoPobierania.substring(adresUrlDoPobierania.lastIndexOf("/") + 1);

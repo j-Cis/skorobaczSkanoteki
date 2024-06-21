@@ -1,5 +1,4 @@
 {
-  
   "[javascript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
@@ -35,8 +34,16 @@
   "cSpell.languageSettings": [],
   "cSpell.overrides": [],
   "cSpell.words": [
-    "ˈdiːnoʊ",
+    "deno",
+    "DeNo",
+    "pobieracz",
+    "skanoteki",
     "skrobaczSkanoteki",
+    "wylistowanego",
+    "successionalia",
+    "pupillaria",
+    "sygnaturalne",
+    "serializacją"
   ],
   "css.customData": [
     ".vscode/tailwind.json"
@@ -106,5 +113,9 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.sideBar.location": "right",
-  "xml.symbols.maxItemsComputed": 100000
+  "xml.symbols.maxItemsComputed": 100000,
+  "explorerExclude.showPicker": true,
+  "explorerExclude.backup": {
+    "**/.deno_lsp/"
+  }
 }
