@@ -12,4 +12,7 @@
 _fresh/
 
 # PLIKI PROGRAMU
-download/*
+download/**
+!download/.gitkeep
+tasks/**
+!tasks/test.txt

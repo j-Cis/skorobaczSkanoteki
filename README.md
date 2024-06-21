@@ -559,6 +559,9 @@ Kolejność prezentowanych skryptów odpowiada kolejności na powyższym drzewie
 - [ ] Dodać do opisów plików znacznik czasowy, kiedy plik zapisano, oraz kiedy utworzono, aby w razie zmian, poradzić sobie z serializacją.
 - [ ] Dodać do dokumentacji informację jak używać git oraz gitHUB, dla osób które chciały by nadsyłać poprawki, i pomysły.
 - [ ] Dopracować tą dokumentację.
+- [ ] Dodać opcję przywracania pliku `tasks/test.txt`, gdyby ktoś usunął
+- [ ] Dodać alert o pojawieniu się nowej wersji.
+- [ ] Dodać możliwość pobrania plików skryptów, gdyby ktoś któryś skasował przez pomyłkę.
 
 ---
 ---
