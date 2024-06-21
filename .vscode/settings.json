@@ -1,0 +1,110 @@
+{
+  
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.wordWrap": "on"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "jinxdash.prettier-rust"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dayan.vscode-deno-html-tools"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "bookmarks.saveBookmarksInProject": true,
+  "bookmarks.sideBar.expanded": true,
+  "bookmarks.useWorkaroundForFormatters": true,
+  "cSpell.language": "en, pl",
+  "cSpell.languageSettings": [],
+  "cSpell.overrides": [],
+  "cSpell.words": [
+    "ˈdiːnoʊ",
+    "skrobaczSkanoteki",
+  ],
+  "css.customData": [
+    ".vscode/tailwind.json"
+  ],
+  "debug.console.fontSize": 10,
+  "deno.codeLens.implementations": true,
+  "deno.codeLens.references": true,
+  "deno.codeLens.referencesAllFunctions": true,
+  "deno.enable": true,
+  "deno.future": true,
+  "deno.lint": true,
+  "deno.logFile": true,
+  "deno.unstable": true,
+  "denoHTMLTools.lint": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.fontWeight": "450",
+  "editor.formatOnSave": true,
+  "editor.largeFileOptimizations": false,
+  "editor.minimap.enabled": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.rpx": "xml",
+    "*.stl": "json",
+    "*.tsx": "typescriptreact",
+    "*.yrf": "json",
+    ".env*": "dotenv"
+  },
+  "files.readonlyInclude": {
+    "**/deno.lock": true,
+    "deno.lock": true
+  },
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "markdown.preview.fontSize": 12,
+  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.files.associations": {
+    "**/fresh.ts": "Deno"
+  },
+  "material-icon-theme.folders.associations": {
+    "islands": "Animation"
+  },
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 9,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vscode-edge-devtools.browserFlavor": "Dev",
+  "vscode-edge-devtools.defaultEntrypoint": "http://localhost:8000/",
+  "vscode-edge-devtools.port": 8000,
+  "vscode-edge-devtools.showWorkers": true,
+  "vscode-edge-devtools.useHttps": true,
+  "vscode-edge-devtools.webhint": false,
+  "vscode-office.editorTheme": "Dracula",
+  "vscode-office.openOutline": true,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Ready Academy theme - Professional",
+  "workbench.editorAssociations": {
+    "*.md": "default"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.sideBar.location": "right",
+  "xml.symbols.maxItemsComputed": 100000
+}
