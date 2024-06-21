@@ -1,6 +1,6 @@
 # skrobaczSkanoteki - wersja powłokowa
 
-![pobieranie programu](./icons/icon.png)
+![IKONA](./icons/icon.png)
 
 **Ta wersja programu charakteryzuje się minimalistyczną funkcjonalnością dzięki temu jest lżejsza. (już działa).**
 
