@@ -344,6 +344,7 @@ Program działa na zasadzie asynchronicznej pętli sterowanej plikiem z zadaniem
 >   ├─. [docs]  . . . . . . . . . . . . . . . . # folder z plikami graficznymi z tej dokumentacji;
 >   ├─. [tasks] . . . . . . . . . . . . . . . . # folder z zadaniami, do wykonania w programie;
 >   ├─. [download]  . . . . . . . . . . . . . . # folder w którym będą zapisywane pobierane skany;
+>   ├─. [icons] . . . . . . . . . . . . . . . . # folder z ikonami;
 >   ├─. [.vscode] . . . . . . . . . . . . . . . # folder z ustawieniami programu vsCODE;
 >   └─. .gitignore  . . . . . . . . . . . . . . # plik mówiący czego mielibyśmy nie wysyłać na serwer, gdyby chcielibyśmy nanieść na program poprawkę;
 > ```

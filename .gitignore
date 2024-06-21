@@ -5,11 +5,9 @@
 .env.production.local
 .env.local
 
-# DeNo logs file
+# DeNo files
 .deno_lsp/
-
-# Fresh build directory
-_fresh/
+deno.lock
 
 # PLIKI PROGRAMU
 download/**
