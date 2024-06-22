@@ -23,3 +23,12 @@
 >
 > ---
 ---
+
+---
+
+> **💠 Droga do wersji  v0.0.2-alpha.0**
+>
+> - [utworzono plik z rejestrem zmian `./CHANGES.md`](./CHANGES.md)
+>
+> ---
+---
