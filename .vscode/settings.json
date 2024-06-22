@@ -37,13 +37,14 @@
     "deno",
     "DeNo",
     "pobieracz",
+    "podścieżką",
+    "pupillaria",
+    "serializacją",
     "skanoteki",
     "skrobaczSkanoteki",
-    "wylistowanego",
     "successionalia",
-    "pupillaria",
     "sygnaturalne",
-    "serializacją"
+    "wylistowanego"
   ],
   "css.customData": [
     ".vscode/tailwind.json"

@@ -1,0 +1,2 @@
+ZADANIA_W_FOLDERZE  = "Batch"
+ARCHIWUM_W_FOLDERZE = "Archive"
