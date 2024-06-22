@@ -5,12 +5,18 @@
       "jsr:@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@0.1.47",
       "jsr:@std/bytes@^1.0.0-rc.3": "jsr:@std/bytes@1.0.0-rc.3",
       "jsr:@std/cli": "jsr:@std/cli@0.224.7",
+      "jsr:@std/collections@^1.0.0": "jsr:@std/collections@1.0.0",
       "jsr:@std/collections@^1.0.0-rc.1": "jsr:@std/collections@1.0.0-rc.1",
+      "jsr:@std/fmt@^0.225.4": "jsr:@std/fmt@0.225.4",
       "jsr:@std/fs": "jsr:@std/fs@0.229.2",
+      "jsr:@std/fs@^1.0.0-rc.1": "jsr:@std/fs@1.0.0-rc.1",
       "jsr:@std/io": "jsr:@std/io@0.224.1",
       "jsr:@std/path": "jsr:@std/path@0.225.2",
       "jsr:@std/path@1.0.0-rc.1": "jsr:@std/path@1.0.0-rc.1",
-      "jsr:@std/toml": "jsr:@std/toml@0.224.1"
+      "jsr:@std/path@1.0.0-rc.2": "jsr:@std/path@1.0.0-rc.2",
+      "jsr:@std/path@^1.0.0-rc.2": "jsr:@std/path@1.0.0-rc.2",
+      "jsr:@std/toml": "jsr:@std/toml@0.224.1",
+      "jsr:@std/toml@^1.0.0-rc.2": "jsr:@std/toml@1.0.0-rc.2"
     },
     "jsr": {
       "@b-fuze/deno-dom@0.1.47": {
@@ -22,13 +28,25 @@
       "@std/cli@0.224.7": {
         "integrity": "654ca6477518e5e3a0d3fabafb2789e92b8c0febf1a1d24ba4b567aba94b5977"
       },
+      "@std/collections@1.0.0": {
+        "integrity": "8e4e07ce1df7badae20b80f2678c3ca3bc14cae5514c4e1817a4668ba8b1adf2"
+      },
       "@std/collections@1.0.0-rc.1": {
         "integrity": "e69fa667e4bede8f1013be9fb48915e564707a2b054848ca4a4da1f3f10251d9"
+      },
+      "@std/fmt@0.225.4": {
+        "integrity": "584c681cf422b70e28959b57e59012823609c087384cbf12d05f67814797fda3"
       },
       "@std/fs@0.229.2": {
         "integrity": "c15dd65678fc3b9e5465b83cfbb1f3bb34d158ef4347f2afa0b759cce8c51bd9",
         "dependencies": [
           "jsr:@std/path@1.0.0-rc.1"
+        ]
+      },
+      "@std/fs@1.0.0-rc.1": {
+        "integrity": "10a78e43d89507deda6e2ce9c7aac24ba2ee468bf74da1101d95b0fbeb463aca",
+        "dependencies": [
+          "jsr:@std/path@1.0.0-rc.2"
         ]
       },
       "@std/io@0.224.1": {
@@ -43,10 +61,19 @@
       "@std/path@1.0.0-rc.1": {
         "integrity": "b8c00ae2f19106a6bb7cbf1ab9be52aa70de1605daeb2dbdc4f87a7cbaf10ff6"
       },
+      "@std/path@1.0.0-rc.2": {
+        "integrity": "39f20d37a44d1867abac8d91c169359ea6e942237a45a99ee1e091b32b921c7d"
+      },
       "@std/toml@0.224.1": {
         "integrity": "c364b9ca3b18207223c4e2a1f652ef2970ff80967f7575ddf89b6b0565a17148",
         "dependencies": [
           "jsr:@std/collections@^1.0.0-rc.1"
+        ]
+      },
+      "@std/toml@1.0.0-rc.2": {
+        "integrity": "54cc951ab4882b5bafc54ef9fedb379251c37bb81ab009e36b39e59ae23f8f53",
+        "dependencies": [
+          "jsr:@std/collections@^1.0.0"
         ]
       }
     }
@@ -103,5 +130,22 @@
     "https://deno.land/x/plug@0.5.1/plug.ts": "620f9454df049228ba715b215582200a344f33f37605d5b4dfce5bf89c7e9815",
     "https://deno.land/x/plug@0.5.2/deps.ts": "0f53866f60dc4f89bbc3be9d096f7501f2068a51923db220f43f0ad284b6b892",
     "https://deno.land/x/plug@0.5.2/plug.ts": "e495c772bc3b19eb30d820bb83f1b75f6047e3009e19d9a5d81dbe68ca642fd9"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@cliffy/ansi@^1.0.0-rc.4",
+      "jsr:@cliffy/command@^1.0.0-rc.4",
+      "jsr:@cliffy/flags@^1.0.0-rc.4",
+      "jsr:@cliffy/keycode@^1.0.0-rc.4",
+      "jsr:@cliffy/keypress@^1.0.0-rc.4",
+      "jsr:@cliffy/prompt@^1.0.0-rc.4",
+      "jsr:@cliffy/table@^1.0.0-rc.4",
+      "jsr:@cliffy/testing@^1.0.0-rc.4",
+      "jsr:@std/assert@^1.0.0-rc.2",
+      "jsr:@std/fmt@^0.225.4",
+      "jsr:@std/fs@^1.0.0-rc.1",
+      "jsr:@std/path@^1.0.0-rc.2",
+      "jsr:@std/toml@^1.0.0-rc.2"
+    ]
   }
 }

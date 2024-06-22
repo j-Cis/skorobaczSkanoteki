@@ -21,7 +21,7 @@ import type { RecordStringBoolean, RecordStringString, RecordStringUnknown } fro
 /** 
  * 
 */
-import { pathIsChildUnderParentPath, pathIsChildUnderParentsPaths } from "../Plugins/pathIsChildUnder.ts";
+import { pathIsChildUnderParentPath, pathIsChildUnderParentsPaths } from "../Tools/pathIsChildUnder.ts";
 
 /** 
  * 
