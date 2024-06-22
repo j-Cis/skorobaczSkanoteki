@@ -70,10 +70,7 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.associations": {
-    "*.rpx": "xml",
-    "*.stl": "json",
     "*.tsx": "typescriptreact",
-    "*.yrf": "json",
     ".env*": "dotenv"
   },
   "files.readonlyInclude": {
@@ -95,7 +92,7 @@
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.enableImages": true,
   "terminal.integrated.fontFamily": "Fira Code",
-  "terminal.integrated.fontSize": 9,
+  "terminal.integrated.fontSize": 11,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vscode-edge-devtools.browserFlavor": "Dev",
   "vscode-edge-devtools.defaultEntrypoint": "http://localhost:8000/",
@@ -103,8 +100,6 @@
   "vscode-edge-devtools.showWorkers": true,
   "vscode-edge-devtools.useHttps": true,
   "vscode-edge-devtools.webhint": false,
-  "vscode-office.editorTheme": "Dracula",
-  "vscode-office.openOutline": true,
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Ready Academy theme - Professional",
   "workbench.editorAssociations": {
@@ -113,9 +108,5 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.sideBar.location": "right",
-  "xml.symbols.maxItemsComputed": 100000,
-  "explorerExclude.showPicker": true,
-  "explorerExclude.backup": {
-    "**/.deno_lsp/"
-  }
+  "xml.symbols.maxItemsComputed": 100000
 }
