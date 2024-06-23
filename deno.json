@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "start": "deno run --allow-net --allow-read --allow-write pobieracz-skanoteki.ts"
+    "start": "deno run --allow-net --allow-read --allow-write pobieracz-skanoteki.ts",
+    "dev": "deno run -A --watch=Core/ Core/Start.ts"
   },
   "version": "0.0.2",
   "compilerOptions": {

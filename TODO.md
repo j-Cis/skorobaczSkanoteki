@@ -1,16 +1,8 @@
-# PLANOWANE ZMIANY
+# DROGA DO WERSJI 0.0.2
 
-- [ ] Umożliwić przerwanie operacji i wznowienie jej, bez potrzeby ręcznej edycji pliku zadania.
-- [ ] Dodać wybór zadania z pośród istniejący w powłoce/konsoli/terminalu, aby nie trzeba było każdorazowo zmieniać procedury uruchamiania.
-- [ ] Uprościć procedurę przygotowywania zadania.
-- [ ] Dodać opcję wyboru lokalizacji zapisywanych danych.
-- [ ] Dodać funkcję wygodnego przeglądania zasobu z możliwością dodawania komentarzy i opisów, które będzie można później łatwo przeszukać.
-- [ ] Uprościć mechanizm uruchamiania dodając wbudowaną wersję DeNo, nie wymagającą instalacji.
-- [ ] Dodać do opisów plików znacznik czasowy, kiedy plik zapisano, oraz kiedy utworzono, aby w razie zmian, poradzić sobie z serializacją.
-- [ ] Dodać do dokumentacji informację jak używać git oraz gitHUB, dla osób które chciały by nadsyłać poprawki, i pomysły.
-- [ ] Dopracować tą dokumentację.
-- [ ] Dodać opcję przywracania pliku `tasks/test.txt`, gdyby ktoś usunął
-- [ ] Dodać alert o pojawieniu się nowej wersji.
-- [ ] Dodać możliwość pobrania plików skryptów, gdyby ktoś któryś skasował przez pomyłkę.
+- [X] (2024-06-23T17:32CET) Utworzono funkcje [_synchroniczne_], przywracające standardowe konfiguracje w przypadku ustawienia niedopuszczalnych wartości,lub usunięcia plików konfiguracyjnych, dla:
+  - [X] `/Config/GDZIE.toml.txt` w pliku `/Core/Functions/sprawdzaczKonfiguracji_GDZIE.ts`
+  - [X] `/Config/SERWER.toml.txt` w pliku `/Core/Functions/sprawdzaczKonfiguracji_SERWER.ts`
+- [X] (2024-06-23T17:32CET) Utworzono funkcję [_asynchroniczną_] zabezpieczającą serwer przed przeciążeniem w pliku `/Core/Functions/ochraniaczSerwera.ts`
 
 ---

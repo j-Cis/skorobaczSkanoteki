@@ -1,6 +1,6 @@
 # skrobaczSkanoteki
 
-![skrobaczSkanoteki - ikona](./Icons/icon.jpg);
+![skrobaczSkanoteki - ikona](./Icons/icon.jpg)
 
 ---
 
@@ -11,24 +11,17 @@
 > - [🔎🛠️ klikając tu możesz bez potrzeby pobierania, zapoznać się z zawartością, folderu](https://github.com/j-Cis/skorobaczSkanoteki/tree/v0.0.1-rc.1)
 >
 > ---
->
-> **💠 Dostrzezone wady tej wersji i pomysły na usprawnienia**
->
-> - [ ] - Umożliwić przerwanie operacji i wznowienie jej, bez potrzeby ręcznej edycji pliku zadania.
-> - [ ] - Dodać wybór zadania z pośród istniejących w powłoce/konsoli/terminalu, aby nie trzeba było każdorazowo zmieniać procedury uruchamiania.
-> - [ ] - Uprościć procedurę przygotowywania zadania.
-> - [ ] - Dodać opcję wyboru lokalizacji zapisywanych danych.
-> - [ ] - Uprościć mechanizm uruchamiania dodając wbudowaną wersję DeNo, nie wymagającą instalacji.
-> - [ ] - Dodać do opisów plików znacznik czasowy, kiedy plik zapisano, oraz kiedy utworzono, aby w razie zmian, poradzić sobie z serializacją.
->
-> ---
 ---
 
 ---
 
 > **💠 Droga do wersji  v0.0.2-alpha.0**
 >
-> - [utworzono plik z rejestrem zmian `./CHANGES.md`](./CHANGES.md)
+> - [X] (2024-06-23T17:32CET) Utworzono funkcje [_synchroniczne_], przywracające standardowe konfiguracje w przypadku ustawienia niedopuszczalnych wartości,lub usunięcia plików konfiguracyjnych, dla:
+>   - [X] `/Config/GDZIE.toml.txt` w pliku `/Core/Functions/sprawdzaczKonfiguracji_GDZIE.ts`
+>   - [X] `/Config/SERWER.toml.txt` w pliku `/Core/Functions/sprawdzaczKonfiguracji_SERWER.ts`
+> - [X] (2024-06-23T17:32CET) Utworzono funkcję [_asynchroniczną_] zabezpieczającą serwer przed przeciążeniem w pliku `/Core/Functions/ochraniaczSerwera.ts`
 >
 > ---
+
 ---

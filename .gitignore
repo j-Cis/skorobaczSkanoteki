@@ -7,7 +7,7 @@
 
 # DeNo files
 .deno_lsp/
-deno.lock
+./deno.lock
 
 # PLIKI PROGRAMU
 download/**

@@ -1,9 +1,9 @@
 import { parseArgs } from "jsr:@std/cli";
 import { ensureDirSync, ensureFileSync } from "jsr:@std/fs";
 import { parse } from "jsr:@std/toml";
-import { pobieracz, type PLIK_POBIERZ_JAKO } from "./pobieracz.ts";
-import spowalniacz from "./spowalniacz.ts";
-import skrobaczSKANOTEKI from "./skrobacz-skanoteki.ts";
+import { pobieracz, type PLIK_POBIERZ_JAKO } from "../Backup/pobieracz.ts";
+import spowalniacz from "../Backup/spowalniacz.ts";
+import skrobaczSKANOTEKI from "../Backup/skrobacz-skanoteki.ts";
 import { OPERACJE_NA_MINUTE } from './ustawienia.ts';
 
 const zadania = "./tasks";
