@@ -40,13 +40,15 @@
     "podścieżką",
     "pupillaria",
     "serializacją",
+    "Skanoteka",
     "skanoteki",
     "skrobaczSkanoteki",
     "Sprawdzacz",
     "successionalia",
     "sygnaturalne",
     "uruchomieniowy",
-    "wylistowanego"
+    "wylistowanego",
+    "zesp"
   ],
   "css.customData": [
     ".vscode/tailwind.json"

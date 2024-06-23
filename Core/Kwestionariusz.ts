@@ -1,1 +1,1 @@
-//# `/Core/App/Kwestionariusz.ts`
+// # `/Core/App/Kwestionariusz.ts`

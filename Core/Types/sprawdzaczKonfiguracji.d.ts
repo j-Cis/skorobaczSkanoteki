@@ -1,4 +1,4 @@
-//# `/Core/Types/sprawdzaczKonfiguracji.d.ts`
+// # `/Core/Types/sprawdzaczKonfiguracji.d.ts`
 
 export interface Config_SERWER {
   ILE_ZAPYTAN_NA_MINUTE: number;

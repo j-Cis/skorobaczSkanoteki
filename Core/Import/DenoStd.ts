@@ -1,3 +1,4 @@
+
 /** @see {@link  https://jsr.io/@std/fs@1.0.0-rc.1/doc/}  */
 export * as FS_ from "@std/fs";
 
@@ -10,3 +11,6 @@ export * as TOML_ from "@std/toml";
 // https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit
 /** @see {@link  https://jsr.io/@std/fmt@0.225.4/doc/colors/} */
 export * as C_ from "@std/fmt/colors";
+
+/** @see {@link  https://jsr.io/@std/datetime@0.224.1/doc/} */
+export * as TIME_ from "@std/datetime";

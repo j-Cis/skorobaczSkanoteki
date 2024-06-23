@@ -1,4 +1,4 @@
-//# `/Core/Functions/ochraniaczSerwera.ts`
+// # `/Core/Functions/ochraniaczSerwera.ts`
 
 /**
  * Zbyt duża ilość żądań, może doprowadzić do tego że serwer zablokuje 

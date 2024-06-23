@@ -1,0 +1,1 @@
+export * as DOM_ from "@b-fuze/deno-dom/wasm-noinit";

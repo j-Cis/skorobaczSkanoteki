@@ -1,4 +1,4 @@
-//# `/Core/Types/Record.d.ts`
+// # `/Core/Types/Record.d.ts`
 
 // https://blog.logrocket.com/level-up-typescript-record-types/
 export type RecordStringBoolean = Record<string, boolean>;

@@ -4,5 +4,7 @@
   - [X] `/Config/GDZIE.toml.txt` w pliku `/Core/Functions/sprawdzaczKonfiguracji_GDZIE.ts`
   - [X] `/Config/SERWER.toml.txt` w pliku `/Core/Functions/sprawdzaczKonfiguracji_SERWER.ts`
 - [X] (2024-06-23T17:32CET) Utworzono funkcję [_asynchroniczną_] zabezpieczającą serwer przed przeciążeniem w pliku `/Core/Functions/ochraniaczSerwera.ts`
+- [X] (2024-06-24T01:41CET) Utworzono funkcję [_asynchroniczną_] `pobieraczHTML()` pobierającą strony HTML, w pliku`/Core/Functions/pobieraczHTML.ts`
+- [X] (2024-06-24T01:41CET) Utworzono funkcję [_asynchroniczną_] `pobieraczListy0Archiwa()` pobierający listę dostępnych archiwów,w pliku `/Core/Functions/pobieraczListy0Archiwa.ts`
 
 ---

@@ -1,4 +1,4 @@
-//# `/Core/Functions/sprawdzaczKonfiguracji_SERWER.ts`
+// # `/Core/Functions/sprawdzaczKonfiguracji_SERWER.ts`
 
 import PlikTOML from "../Classes/PlikTOML.ts"
 import { pusty, eText, infoZ } from "./sprawdzaczKonfiguracji.ts";

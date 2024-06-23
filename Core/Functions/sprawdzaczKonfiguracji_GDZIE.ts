@@ -1,7 +1,7 @@
-//# `/Core/Functions/sprawdzaczKonfiguracji_GDZIE.ts`
+// # `/Core/Functions/sprawdzaczKonfiguracji_GDZIE.ts`
 
 
-import PlikTOML from "../Classes/PlikTOML.ts"
+import PlikTOML from "../Classes/PlikTOML.ts";
 import { pusty, eText, infoZ, ZAKAZANE_LOKALIZACJE } from "./sprawdzaczKonfiguracji.ts";
 import type { RecordStringUnknown } from "../Types/Record.d.ts";
 import type { Config_GDZIE } from "../Types/sprawdzaczKonfiguracji.d.ts"

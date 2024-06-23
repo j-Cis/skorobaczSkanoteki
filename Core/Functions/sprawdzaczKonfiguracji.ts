@@ -1,4 +1,4 @@
-//# `/Core/Functions/sprawdzaczKonfiguracji.ts`
+// # `/Core/Functions/sprawdzaczKonfiguracji.ts`
 
 import {C_,PATH_} from "../Import/DenoStd.ts";
 import type { RecordStringStrings } from "../Types/Record.d.ts";
