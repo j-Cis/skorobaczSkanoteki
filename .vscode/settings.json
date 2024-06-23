@@ -1,0 +1,232 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.wordWrap": "on"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "jinxdash.prettier-rust"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dayan.vscode-deno-html-tools"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "bookmarks.saveBookmarksInProject": true,
+  "bookmarks.sideBar.expanded": true,
+  "bookmarks.useWorkaroundForFormatters": true,
+  "cSpell.language": "en, pl",
+  "cSpell.languageSettings": [],
+  "cSpell.overrides": [],
+  "cSpell.words": [
+    "deno",
+    "DeNo",
+    "pobieracz",
+    "podścieżką",
+    "pupillaria",
+    "serializacją",
+    "skanoteki",
+    "skrobaczSkanoteki",
+    "Sprawdzacz",
+    "successionalia",
+    "sygnaturalne",
+    "uruchomieniowy",
+    "wylistowanego"
+  ],
+  "css.customData": [
+    ".vscode/tailwind.json"
+  ],
+  "debug.console.fontSize": 10,
+  "deno.codeLens.implementations": true,
+  "deno.codeLens.references": true,
+  "deno.codeLens.referencesAllFunctions": true,
+  "deno.enable": true,
+  "deno.future": true,
+  "deno.lint": true,
+  "deno.logFile": true,
+  "deno.unstable": true,
+  "denoHTMLTools.lint": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.fontWeight": "450",
+  "editor.formatOnSave": true,
+  "editor.largeFileOptimizations": false,
+  "editor.minimap.enabled": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.tsx": "typescriptreact",
+    ".env*": "dotenv"
+  },
+  "files.readonlyInclude": {
+    "**/deno.lock": true,
+    "deno.lock": true
+  },
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "markdown.preview.fontSize": 12,
+  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.files.associations": {
+    "**/fresh.ts": "Deno"
+  },
+  "material-icon-theme.folders.associations": {
+    "islands": "Animation"
+  },
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 11,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vscode-edge-devtools.browserFlavor": "Dev",
+  "vscode-edge-devtools.defaultEntrypoint": "http://localhost:8000/",
+  "vscode-edge-devtools.port": 8000,
+  "vscode-edge-devtools.showWorkers": true,
+  "vscode-edge-devtools.useHttps": true,
+  "vscode-edge-devtools.webhint": false,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Ready Academy theme - Professional",
+  "workbench.editorAssociations": {
+    "*.md": "default"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.sideBar.location": "right",
+  "xml.symbols.maxItemsComputed": 100000,
+  "better-comments.highlightPlainText": false,
+  "better-comments.multilineComments": true,
+  "better-comments.highlightMarkdown": false,
+  "better-comments.tagsLight": [
+    {
+      "tag": ["//#", "#"],
+      "color": "#082567",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "#b87333",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "better-comments.tagsDark": [
+    {
+      "tag": ["//#", "#"],
+      "color": "#082567",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "#b87333",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": ["todo", "to-do"],
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": ["//#", "#"],
+      "color": "#082567",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "#b87333",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "deno.config": "deno.json",
+  "denoHTMLTools.denoConfig": "",
+  "javascript.experimental.updateImportsOnPaste": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.semicolons": "insert",
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "js/ts.implicitProjectConfig.target": "ESNext",
+  "typescript.experimental.updateImportsOnPaste": true,
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.semicolons": "insert",
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.showOnInterfaceMethods": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.suggest.completeFunctionCalls": true
+}
